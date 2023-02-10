@@ -9,7 +9,8 @@ except FileNotFoundError:
 setup(
     name='logredactor',
     packages=find_packages(),
-    version='0.0.1',
+    version='0.0.2',
+    url='https://github.com/xtream1101/logredactor',
     description='Redact logs based on regex filters',
     long_description=long_description,
     long_description_content_type='text/markdown',
